@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 ## String
 |  |
@@ -12,6 +13,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 ## Depth-First Search
 |  |
