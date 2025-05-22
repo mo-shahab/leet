@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 ## String
 |  |
 | ------- |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -23,4 +25,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
