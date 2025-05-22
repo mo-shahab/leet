@@ -1,0 +1,24 @@
+A collection of LeetCode questions to ace the coding interviews! - Created using [LeetHub 2.0 for Firefox](https://github.com/maitreya2954/LeetHub-2.0-Firefox)
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+## String
+|  |
+| ------- |
+| [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+<!---LeetCode Topics End-->
