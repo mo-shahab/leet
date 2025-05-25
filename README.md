@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 ## String
 |  |
 | ------- |
@@ -29,11 +30,13 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 ## Matrix
 |  |
 | ------- |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -50,8 +53,10 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
