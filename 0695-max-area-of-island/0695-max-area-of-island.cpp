@@ -36,9 +36,9 @@ public:
             for(int i = 0; i < 4; i++){ 
                 int adjx = row + dRow[i];
                 int adjy = col + dCol[i];
-                bool stuff =  adjx >= 0 && adjy >= 0 && adjx < rows && adjy < cols ;
+                //bool stuff =  adjx >= 0 && adjy >= 0 && adjx < rows && adjy < cols ;
 
-                cout << stuff << " " << adjx << " " << adjy << endl;
+                //cout << stuff << " " << adjx << " " << adjy << endl;
 
                 if( adjx >= 0 && adjy >= 0 && adjx < rows && adjy < cols )
                 {
