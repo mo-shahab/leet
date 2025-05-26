@@ -18,36 +18,56 @@ public:
     }
 };
 */
-
 class Solution {
 public:
+    unordered_map<Node*, Node*> visited;
+
     Node* cloneGraph(Node* node) {
         if(!node) return nullptr;
 
+        if(visited[node]) return visited[node];
+
         Node* copy = new Node(node->val, {});
-        unordered_map<Node*, Node*> visited;
-
-        queue<Node*> q;
-        q.push(node);
         visited[node] = copy;
-        
-        while(!q.empty())
-        {
-            Node* curr = q.front();
-            q.pop();
 
-            for(Node* neighbor: curr->neighbors)
-            {
-                if(!visited[neighbor])
-                {
-                    Node* new_neighbor = new Node(neighbor->val);
-                    visited[neighbor] = new_neighbor;
-                    q.push(neighbor);
-                }
-                visited[curr]->neighbors.push_back(visited[neighbor]);
-            }
+        for(auto neighbor: node->neighbors)
+        {
+            copy->neighbors.push_back(cloneGraph(neighbor));
         }
 
-        return visited[node];
+        return copy;
     }
 };
+
+//   class Solution {
+//   public:
+//       Node* cloneGraph(Node* node) {
+//           if(!node) return nullptr;
+//   
+//           Node* copy = new Node(node->val, {});
+//           unordered_map<Node*, Node*> visited;
+//   
+//           queue<Node*> q;
+//           q.push(node);
+//           visited[node] = copy;
+//   
+//           while(!q.empty())
+//           {
+//               Node* curr = q.front();
+//               q.pop();
+//   
+//               for(Node* neighbor: curr->neighbors)
+//               {
+//                   if(!visited[neighbor])
+//                   {
+//                       Node* new_neighbor = new Node(neighbor->val);
+//                       visited[neighbor] = new_neighbor;
+//                       q.push(neighbor);
+//                   }
+//                   visited[curr]->neighbors.push_back(visited[neighbor]);
+//               }
+//           }
+//   
+//           return visited[node];
+//       }
+//   };
