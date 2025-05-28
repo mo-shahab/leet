@@ -8,12 +8,10 @@ public:
         for(int i = 0; i < numCourses; i++)
         {
             int j = 0; 
+            // this is like checking if any of the degrees is not 0, at any given time
             for(; j < numCourses; j++)    
             {
-                if(!degrees[j])
-                {
-                    if(!degrees[j]) break;
-                }
+                if(!degrees[j]) break;
             } 
             if(j == numCourses) return false;
 
