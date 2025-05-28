@@ -3,14 +3,23 @@ public:
     typedef vector<vector<int>> graph;
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         graph g = buildGraph(numCourses, prerequisites);
-        vector<bool> todo(numCourses, false), done(numCourses, false);
-        
+        vector<int> degrees = computeIndegrees(g);
+
         for(int i = 0; i < numCourses; i++)
         {
-            if(!done[i] && !dfs(g, todo, done, i))
+            int j = 0; 
+            for(; j < numCourses; j++)    
             {
-                return false;
-            }
+                if(!degrees[j])
+                {
+                    if(!degrees[j]) break;
+                }
+            } 
+            if(j == numCourses) return false;
+
+            degrees[j]--;
+
+            for(int v: g[j]) degrees[v]--;
         }
 
         return true;
@@ -28,28 +37,18 @@ public:
         return g;
     }
 
-    bool dfs(graph& g,  vector<bool>& todo, vector<bool>& done, int node)
+    vector<int> computeIndegrees(graph& g)
     {
-        if(todo[node])
-        {
-            return false;
-        }
+        vector<int> degrees(g.size(), 0);
 
-        if(done[node])
+        for(auto adj: g)
         {
-            return true;
-        }
-
-        todo[node] = done[node] = true;
-
-        for(int v: g[node])
-        {
-            if(!dfs(g, todo, done, v))
+            for(int v: adj)
             {
-                return false;
+                degrees[v]++;
             }
         }
-        todo[node] = false;
-        return true;
+
+        return degrees;
     }
 };
