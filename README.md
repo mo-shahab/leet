@@ -102,4 +102,9 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mo-shahab/leet/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/mo-shahab/leet/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/mo-shahab/leet/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
