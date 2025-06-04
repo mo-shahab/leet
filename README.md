@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0020-valid-parentheses](https://github.com/mo-shahab/leet/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
+| [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
 ## Backtracking
 |  |
 | ------- |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0003-longest-substring-without-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mo-shahab/leet/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0133-clone-graph](https://github.com/mo-shahab/leet/tree/master/0133-clone-graph) |
+| [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -113,4 +115,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
