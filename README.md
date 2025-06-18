@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/mo-shahab/leet/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/mo-shahab/leet/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
 ## Hash Table
 |  |
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mo-shahab/leet/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/mo-shahab/leet/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/mo-shahab/leet/tree/master/0739-daily-temperatures) |
 ## Design
@@ -151,6 +154,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 ## Queue
 |  |
@@ -167,6 +171,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/mo-shahab/leet/tree/master/0739-daily-temperatures) |
 ## Linked List
 |  |
