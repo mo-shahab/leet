@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0417-pacific-atlantic-water-flow](https://github.com/mo-shahab/leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/mo-shahab/leet/tree/master/0739-daily-temperatures) |
+| [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
 ## String
 |  |
@@ -183,4 +184,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mo-shahab/leet/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/mo-shahab/leet/tree/master/0206-reverse-linked-list) |
+## Binary Search
+|  |
+| ------- |
+| [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
 <!---LeetCode Topics End-->
