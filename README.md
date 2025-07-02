@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/mo-shahab/leet/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mo-shahab/leet/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/mo-shahab/leet/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/mo-shahab/leet/tree/master/0022-generate-parentheses) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/mo-shahab/leet/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/mo-shahab/leet/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0070-climbing-stairs) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/mo-shahab/leet/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 ## Queue
