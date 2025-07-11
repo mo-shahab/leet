@@ -18,26 +18,26 @@ public:
     }
 };
 */
-class Solution {
-public:
-    unordered_map<Node*, Node*> visited;
-
-    Node* cloneGraph(Node* node) {
-        if(!node) return nullptr;
-
-        if(visited[node]) return visited[node];
-
-        Node* copy = new Node(node->val, {});
-        visited[node] = copy;
-
-        for(auto neighbor: node->neighbors)
-        {
-            copy->neighbors.push_back(cloneGraph(neighbor));
-        }
-
-        return copy;
-    }
-};
+// class Solution {
+// public:
+//     unordered_map<Node*, Node*> visited;
+// 
+//     Node* cloneGraph(Node* node) {
+//         if(!node) return nullptr;
+// 
+//         if(visited[node]) return visited[node];
+// 
+//         Node* copy = new Node(node->val, {});
+//         visited[node] = copy;
+// 
+//         for(auto neighbor: node->neighbors)
+//         {
+//             copy->neighbors.push_back(cloneGraph(neighbor));
+//         }
+// 
+//         return copy;
+//     }
+// };
 
 //   class Solution {
 //   public:
@@ -71,3 +71,32 @@ public:
 //           return visited[node];
 //       }
 //   };
+
+class Solution {
+public:
+    Node* cloneGraph(Node* node) {
+		if(!node) return nullptr;
+
+		Node* copy = new Node(node->val, {});
+		unordered_map<Node*, Node*> visited;
+		queue<Node*> q;
+		q.push(node);
+		visited[node] = copy;
+
+		while(!q.empty()){
+			Node* curr = q.front();
+			q.pop();	
+
+			for(Node* neigh: curr->neighbors){
+				if(!visited[neigh]){
+					Node* new_neigh = new Node(neigh->val); 
+					visited[neigh] = new_neigh;
+					q.push(neigh);
+				}
+
+				visited[curr]->neighbors.push_back(visited[neigh]);
+			}
+		}
+        return copy;
+	}
+};
