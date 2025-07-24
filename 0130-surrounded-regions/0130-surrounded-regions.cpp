@@ -6,82 +6,74 @@ public:
         int rows = board.size();
         int cols = board[0].size();
 
+        vector<vector<bool>> vis(rows, vector(cols, false));
+
         // phase 1 marking all the unsurrounded regions 
         // as 'T'
-
-        vector<vector<bool>> visited(rows, vector<bool>(cols, false));
-
         queue<pair<int, int>> q;
-        for(int i = 0; i < rows; i++) {
-            if(board[i][0] == 'O' && !visited[i][0]) {
+        for(int i = 0; i < rows; i++){
+            if(board[i][0] == 'O'){
                 q.push({i, 0});
-                visited[i][0] = true;
                 board[i][0] = 'T';
+                vis[i][0] = true;
             }
-            if(board[i][cols - 1] == 'O' && !visited[i][cols - 1]) {
-                q.push({i, cols - 1});
-                visited[i][cols - 1] = true;
-                board[i][cols - 1] = 'T';
-            }
-        }
-        
-        for(int j = 0; j < cols; j++) {
-            if(board[0][j] == 'O' && !visited[0][j]) {
-                q.push({0, j});
-                visited[0][j] = true;
-                board[0][j] = 'T';
-            }
-            if(board[rows - 1][j] == 'O' && !visited[rows - 1][j]) {
-                q.push({rows - 1, j});
-                visited[rows - 1][j] = true;
-                board[rows - 1][j] = 'T';
+            if(board[i][cols-1] == 'O'){
+                q.push({i, cols-1});
+                board[i][cols-1] = 'T';
+                vis[i][cols-1] = true;
             }
         }
 
-        
-        // marking all the unsurrounded regions with 'T'
-        while(!q.empty()) 
-        {
+        for(int i = 0; i < cols; i++){
+            if(board[0][i] == 'O'){
+                q.push({0, i});
+                board[0][i] =  'T';
+                vis[0][i] = true;
+            }
+            if(board[rows-1][i] == 'O'){
+                q.push({rows-1, i});
+                board[rows-1][i] = 'T';
+                vis[rows-1][i] = true;
+            }
+        }
+
+        while(!q.empty()){
             pair<int, int> curr = q.front();
-            int row = curr.first;
+
+            int row =  curr.first;
             int col = curr.second;
 
             q.pop();
 
-            for(int i = 0; i < 4; i++)
-            {
+            for(int i = 0; i < 4; i++){
                 int adjx = row + dRow[i];
                 int adjy = col + dCol[i];
 
-                if(adjx >= 0 && adjy >= 0 && adjx < rows && adjy < cols && !visited[adjx][adjy] && board[adjx][adjy] == 'O')
-                {
-                    board[adjx][adjy] = 'T';
-                    q.push({adjx, adjy});
-                    visited[adjx][adjy] = true;
+                if(adjx >= 0 && adjy >= 0 && adjx < rows && adjy < cols && !vis[adjx][adjy]){
+                    if(board[adjx][adjy] == 'O'){
+                        board[adjx][adjy] = 'T';
+                        vis[adjx][adjy] = true;
+                        q.push({adjx, adjy});
+                    }
                 }
             }
         }
 
-        for(int i = 0; i < rows; i++)
-        {
-            for(int j = 0; j < cols; j++)
-            {
-                if(board[i][j] == 'O')
-                {
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < cols; j++){
+                if(board[i][j] == 'O') {
                     board[i][j] = 'X';
                 }
             }
         }
 
-        for(int i = 0; i < rows; i++)
-        {
-            for(int j = 0; j < cols; j++)
-            {
-                if(board[i][j] == 'T')
-                {
+        for(int i = 0; i < rows; i++){
+            for(int j = 0; j < cols; j++){
+                if(board[i][j] == 'T'){
                     board[i][j] = 'O';
                 }
             }
         }
+
     }
 };
