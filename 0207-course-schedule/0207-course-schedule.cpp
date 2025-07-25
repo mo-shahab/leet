@@ -1,52 +1,52 @@
 class Solution {
 public:
     typedef vector<vector<int>> graph;
+
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        graph g = buildGraph(numCourses, prerequisites);
-        vector<int> degrees = computeIndegrees(g);
+        graph g = build_graph(prerequisites, numCourses);
 
-        for(int i = 0; i < numCourses; i++)
-        {
-            int j = 0; 
-            // this is like checking if any of the degrees is not 0, at any given time
-            for(; j < numCourses; j++)    
-            {
-                if(!degrees[j]) break;
-            } 
-            if(j == numCourses) return false;
+        vector<bool> done(numCourses, false), todo(numCourses, false);
 
-            degrees[j]--;
-
-            for(int v: g[j]) degrees[v]--;
+        for(int i = 0; i < numCourses; i++){
+            if(!done[i] && !dfs(g, done, todo, i)){
+                return false;
+            }
         }
 
         return true;
     }
 
-    graph buildGraph(int numCourses, vector<vector<int>>& pre)
-    {
-        graph g(numCourses);
+    graph build_graph(graph& pre, int num){
+        graph g(num); 
 
-        for(auto& p: pre)
-        {
-            g[p[1]].push_back(p[0]);
+        for(auto& p: pre){
+            g[p[0]].push_back(p[1]);
         }
 
         return g;
     }
 
-    vector<int> computeIndegrees(graph& g)
-    {
-        vector<int> degrees(g.size(), 0);
+    bool dfs(graph& g, vector<bool>& done, vector<bool>& todo, int node){
+        if(todo[node]){
+            return false;
+        }
 
-        for(auto adj: g)
-        {
-            for(int v: adj)
-            {
-                degrees[v]++;
+        if(done[node]){
+            return true;
+        }
+
+        todo[node] = done[node] = true;
+
+        for(auto& v: g[node]){
+            if(!dfs(g, done, todo, v)){
+                return false;
             }
         }
 
-        return degrees;
+        todo[node] = false;
+
+        return true;
     }
+
+
 };
