@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0022-generate-parentheses](https://github.com/mo-shahab/leet/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/mo-shahab/leet/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/mo-shahab/leet/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0022-generate-parentheses](https://github.com/mo-shahab/leet/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0070-climbing-stairs) |
+| [0091-decode-ways](https://github.com/mo-shahab/leet/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/mo-shahab/leet/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/mo-shahab/leet/tree/master/0213-house-robber-ii) |
