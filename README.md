@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0130-surrounded-regions](https://github.com/mo-shahab/leet/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/mo-shahab/leet/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/mo-shahab/leet/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/mo-shahab/leet/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0070-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/mo-shahab/leet/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/mo-shahab/leet/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/mo-shahab/leet/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/mo-shahab/leet/tree/master/0213-house-robber-ii) |
@@ -99,6 +102,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mo-shahab/leet/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0076-minimum-window-substring](https://github.com/mo-shahab/leet/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/mo-shahab/leet/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
@@ -229,4 +233,9 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
