@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/mo-shahab/leet/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mo-shahab/leet/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mo-shahab/leet/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mo-shahab/leet/tree/master/0210-course-schedule-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mo-shahab/leet/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mo-shahab/leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/mo-shahab/leet/tree/master/0684-redundant-connection) |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0155-min-stack](https://github.com/mo-shahab/leet/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/mo-shahab/leet/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mo-shahab/leet/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Sliding Window
 |  |
 | ------- |
@@ -247,4 +250,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/mo-shahab/leet/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mo-shahab/leet/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
