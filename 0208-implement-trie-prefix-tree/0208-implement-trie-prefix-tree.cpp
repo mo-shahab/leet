@@ -1,16 +1,12 @@
-class TrieNode
+class TrieNode 
 {
 public:
     bool isEnd;
-
-    // these are basically children of the nodes,
-    // each nodes can only have 26 children why ? 
-    // because english alphabets
     TrieNode* children[26];
 
     TrieNode()
     {
-        isEnd = false;
+        isEnd = false;    
         for(int i = 0; i < 26; i++)
         {
             children[i] = NULL;
@@ -20,9 +16,7 @@ public:
 
 class Trie {
 public:
-
     TrieNode* root;
-
     Trie() 
     {
         root = new TrieNode();
@@ -31,7 +25,7 @@ public:
     void insert(string word) 
     {
         int n = word.size();
-        TrieNode* parent = root;
+        TrieNode* parent = root; 
 
         for(int i = 0; i < n; i++)
         {
@@ -61,6 +55,7 @@ public:
             {
                 return false;
             }
+
             parent = parent->children[val];
         }
 
@@ -70,7 +65,6 @@ public:
     bool startsWith(string prefix) 
     {
         int n = prefix.size();
-
         TrieNode* parent = root;
 
         for(int i = 0; i < n; i++)
