@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0747-min-cost-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
+| [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
 ## String
 |  |
 | ------- |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mo-shahab/leet/tree/master/0239-sliding-window-maximum) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mo-shahab/leet/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
 ## Monotonic Queue
 |  |
 | ------- |
