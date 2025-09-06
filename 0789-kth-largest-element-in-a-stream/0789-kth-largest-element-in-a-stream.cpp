@@ -1,28 +1,32 @@
-class KthLargest {
+class KthLargest 
+{
 public:
-    KthLargest(int k, vector<int>& nums) {
-        // Initialize min-heap with the first k elements
-        this->k = k;
-        for (int i = 0; i < nums.size(); i++) {
-            minHeap.push(nums[i]);
+    int kth;
+    priority_queue<int, vector<int>, greater<int>> minHeap;
+
+    KthLargest(int k, vector<int>& nums) 
+    {
+        kth = k;
+        for(int num: nums)
+        {
+            minHeap.push(num);
         }
-        // Keep only the k largest elements
-        while (minHeap.size() > this->k) {
+
+        while(minHeap.size() > kth)
+        {
             minHeap.pop();
         }
     }
     
-    int add(int val) {
-        // Add new element to the min-heap
+    int add(int val) 
+    {
         minHeap.push(val);
-        // If heap size exceeds k, remove the smallest element
-        if (minHeap.size() > k) {
+
+        if(minHeap.size() > kth)
+        {
             minHeap.pop();
         }
-        // Return the current kth largest element
+
         return minHeap.top();
     }
-private:
-    int k;
-    priority_queue<int, vector<int>, greater<int>> minHeap;
 };
