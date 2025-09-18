@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/mo-shahab/leet/tree/master/0051-n-queens) |
+| [0057-insert-interval](https://github.com/mo-shahab/leet/tree/master/0057-insert-interval) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0130-surrounded-regions](https://github.com/mo-shahab/leet/tree/master/0130-surrounded-regions) |
