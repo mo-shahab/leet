@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/mo-shahab/leet/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/mo-shahab/leet/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mo-shahab/leet/tree/master/0057-insert-interval) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/mo-shahab/leet/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mo-shahab/leet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
