@@ -12,6 +12,7 @@ public:
 
         for(int i = 1; i < intervals.size(); i++)
         {
+            // this is the current interval
             vector<int> interval = intervals[i];
 
             if( interval[0] <= prev[1])
