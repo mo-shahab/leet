@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0322-coin-change](https://github.com/mo-shahab/leet/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/mo-shahab/leet/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mo-shahab/leet/tree/master/0417-pacific-atlantic-water-flow) |
+| [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/mo-shahab/leet/tree/master/0739-daily-temperatures) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0300-longest-increasing-subsequence](https://github.com/mo-shahab/leet/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/mo-shahab/leet/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/mo-shahab/leet/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0747-min-cost-climbing-stairs) |
 ## Hash Table
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0056-merge-intervals](https://github.com/mo-shahab/leet/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mo-shahab/leet/tree/master/0215-kth-largest-element-in-an-array) |
+| [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Greedy
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 ## Counting
 |  |
