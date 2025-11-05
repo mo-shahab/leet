@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## String
 |  |
 | ------- |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Counting
 |  |
 | ------- |
