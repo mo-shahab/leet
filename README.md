@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0416-partition-equal-subset-sum](https://github.com/mo-shahab/leet/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0747-min-cost-climbing-stairs) |
 ## Hash Table
 |  |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0020-valid-parentheses](https://github.com/mo-shahab/leet/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/mo-shahab/leet/tree/master/0155-min-stack) |
+| [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/mo-shahab/leet/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0134-gas-station](https://github.com/mo-shahab/leet/tree/master/0134-gas-station) |
 | [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Counting
