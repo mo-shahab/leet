@@ -15,24 +15,21 @@ public:
             return head;
         }
 
+        ListNode* curr = head;
         ListNode* prev = nullptr;
         ListNode* next = nullptr;
-        ListNode* curr = head;
 
-    while (curr != nullptr) {
 
-        // Store next
-        next = curr->next;
+        while(curr != nullptr) {
+            next = curr->next;
 
-        // Reverse current node's next pointer
-        curr->next = prev;
+            curr->next = prev;
 
-        // Move pointers one position ahead
-        prev = curr;
-        curr = next;
-    }
+            prev = curr;
+            curr = next;
+        }
 
-    // Return the head of reversed linked list
-    return prev;
+        // Return the head of reversed linked list
+        return prev;
     }
 };
