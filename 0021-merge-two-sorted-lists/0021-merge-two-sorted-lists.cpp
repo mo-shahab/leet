@@ -11,25 +11,29 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if(list1 == nullptr){
+        if(list1 == nullptr)
+        {
             return list2;
         }
-        if(list2 == nullptr){
+
+        if(list2 == nullptr)
+        {
             return list1;
         }
 
         ListNode* temp = nullptr;
 
-        if(list1->val < list2->val){
+        if(list1->val < list2->val)
+        {
             temp = list1;
             temp->next = mergeTwoLists(list1->next, list2);
         }
-        else {
+        else 
+        {
             temp = list2;
             temp->next = mergeTwoLists(list1, list2->next);
         }
 
         return temp;
-
     }
 };
