@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0143-reorder-list](https://github.com/mo-shahab/leet/tree/master/0143-reorder-list) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/mo-shahab/leet/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Queue
 |  |
 | ------- |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0141-linked-list-cycle](https://github.com/mo-shahab/leet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/mo-shahab/leet/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/mo-shahab/leet/tree/master/0206-reverse-linked-list) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/mo-shahab/leet/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
