@@ -18,16 +18,15 @@ class Solution {
 public:
     Node* copyRandomList(Node* head) {
         unordered_map<Node*, Node*> hashmap;
-
         Node* curr = head;
 
-        while(curr){
+        while(curr) {
             hashmap[curr] = new Node(curr->val);
             curr = curr->next;
         }
 
         curr = head;
-
+        
         while(curr) {
             Node* copy = hashmap[curr];
             copy->next = hashmap[curr->next];
