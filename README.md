@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mo-shahab/leet/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0076-minimum-window-substring](https://github.com/mo-shahab/leet/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/mo-shahab/leet/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/mo-shahab/leet/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/mo-shahab/leet/tree/master/0141-linked-list-cycle) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mo-shahab/leet/tree/master/0021-merge-two-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/mo-shahab/leet/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/mo-shahab/leet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/mo-shahab/leet/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/mo-shahab/leet/tree/master/0206-reverse-linked-list) |
