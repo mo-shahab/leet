@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0213-house-robber-ii](https://github.com/mo-shahab/leet/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mo-shahab/leet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/mo-shahab/leet/tree/master/0239-sliding-window-maximum) |
+| [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/mo-shahab/leet/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/mo-shahab/leet/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/mo-shahab/leet/tree/master/0416-partition-equal-subset-sum) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
+| [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/mo-shahab/leet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/mo-shahab/leet/tree/master/0143-reorder-list) |
+| [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/mo-shahab/leet/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -263,6 +266,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Binary Search
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/mo-shahab/leet/tree/master/0300-longest-increasing-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
 ## Tree
