@@ -13,14 +13,14 @@ public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* dummy = new ListNode(0, head);
 
-        ListNode* after = head;
-        ListNode* before = dummy;
-        ListNode* curr = head;
+        ListNode* after = head; // head of the current group
+        ListNode* before = dummy; // tail of the previous group
+        ListNode* curr = head; // normal iterator of the group
         ListNode* prev = nullptr;
         ListNode* next = nullptr;
 
         while(true){
-            ListNode* cursor = after;
+            ListNode* cursor = after; // always start at the head of the current group 
 
             // checking if there are atleast k number of nodes before doing anything
             for(int i = 0; i < k; i++){
