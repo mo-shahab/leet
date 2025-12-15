@@ -16,12 +16,21 @@ public:
             return nullptr;
         }
 
-        TreeNode* temp = root->left;
-        root->left = root->right;
-        root->right = temp;
+        queue<TreeNode*> q;
+        q.push(root);
 
-        invertTree(root->left);
-        invertTree(root->right);
+        // traversing in the bfs fashion
+        while(!q.empty()){
+            TreeNode* curr = q.front();
+            q.pop();
+
+            TreeNode* temp = curr->left;
+            curr->left = curr->right;
+            curr->right = temp;
+
+            if (curr->left) q.push(curr->left);
+            if (curr->right) q.push(curr->right);
+        }
 
         return root;
     } 
