@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0207-course-schedule](https://github.com/mo-shahab/leet/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mo-shahab/leet/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mo-shahab/leet/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mo-shahab/leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/mo-shahab/leet/tree/master/0684-redundant-connection) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mo-shahab/leet/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mo-shahab/leet/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/mo-shahab/leet/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mo-shahab/leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/mo-shahab/leet/tree/master/0684-redundant-connection) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mo-shahab/leet/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
@@ -287,6 +290,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Binary Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mo-shahab/leet/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Math
