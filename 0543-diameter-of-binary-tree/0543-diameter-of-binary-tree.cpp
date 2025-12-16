@@ -19,9 +19,9 @@ public:
         int left = dfs(root->left);
         int right = dfs(root->right);
 
-        diameter = max(diameter, left + right); // calculating diameter for every subtree
+        diameter = max(diameter, right + left);
 
-        return 1 + max(left, right); // return depth of the subtree to the parents node
+        return 1 + max(left, right);
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
