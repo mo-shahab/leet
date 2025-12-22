@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0057-insert-interval](https://github.com/mo-shahab/leet/tree/master/0057-insert-interval) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/mo-shahab/leet/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/mo-shahab/leet/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0003-longest-substring-without-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mo-shahab/leet/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0076-minimum-window-substring](https://github.com/mo-shahab/leet/tree/master/0076-minimum-window-substring) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0133-clone-graph](https://github.com/mo-shahab/leet/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/mo-shahab/leet/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mo-shahab/leet/tree/master/0023-merge-k-sorted-lists) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mo-shahab/leet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
@@ -301,6 +304,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0100-same-tree](https://github.com/mo-shahab/leet/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/mo-shahab/leet/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
@@ -325,6 +329,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0100-same-tree](https://github.com/mo-shahab/leet/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/mo-shahab/leet/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
