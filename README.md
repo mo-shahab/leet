@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0747-min-cost-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0747-min-cost-climbing-stairs) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mo-shahab/leet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 ## Two Pointers
 |  |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0543-diameter-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/mo-shahab/leet/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mo-shahab/leet/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mo-shahab/leet/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -343,6 +347,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0543-diameter-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/mo-shahab/leet/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mo-shahab/leet/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mo-shahab/leet/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Math
 |  |
