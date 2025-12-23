@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0100-same-tree](https://github.com/mo-shahab/leet/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mo-shahab/leet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/mo-shahab/leet/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/mo-shahab/leet/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0055-jump-game](https://github.com/mo-shahab/leet/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/mo-shahab/leet/tree/master/0091-decode-ways) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mo-shahab/leet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/mo-shahab/leet/tree/master/0152-maximum-product-subarray) |
@@ -313,6 +315,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mo-shahab/leet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -340,6 +343,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mo-shahab/leet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/mo-shahab/leet/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
