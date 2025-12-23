@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/mo-shahab/leet/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/mo-shahab/leet/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0023-merge-k-sorted-lists](https://github.com/mo-shahab/leet/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mo-shahab/leet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -314,6 +316,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0104-maximum-depth-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mo-shahab/leet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0098-validate-binary-search-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mo-shahab/leet/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/mo-shahab/leet/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -342,6 +346,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0104-maximum-depth-of-binary-tree](https://github.com/mo-shahab/leet/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mo-shahab/leet/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/mo-shahab/leet/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mo-shahab/leet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/mo-shahab/leet/tree/master/0199-binary-tree-right-side-view) |
