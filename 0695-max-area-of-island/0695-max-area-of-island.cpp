@@ -1,54 +1,64 @@
 class Solution {
 public:
-    int dRow[4] = {0, -1, 0, 1};
-    int dCol[4] = {-1, 0, 1, 0};
+    int dx[4] = {0, 0, -1, 1};
+    int dy[4] = {1, -1, 0, 0};
+
+    typedef vector<vector<int>> graph;
+    typedef vector<vector<bool>> visited;
 
     int maxAreaOfIsland(vector<vector<int>>& grid) {
         int rows = grid.size();
         int cols = grid[0].size();
-        int max_area = 0;
+        int res = 0; // keeps track of the maximum of the area of island and such, 
 
-        vector<vector<bool>> vis(rows, vector<bool>(cols, false));
+        visited vis(rows, vector<bool>(cols, false));
 
-        for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
-                if (grid[row][col] == 1 && !vis[row][col]) {
-                    int area = bfs(grid, vis, row, col, rows, cols);
-                    max_area = max(max_area, area);
+        for(int i =0; i < rows; i++) {
+            for(int j = 0; j < cols; j++) {
+                if(!vis[i][j] && grid[i][j] == 1){
+                    res = max(res, bfs(grid, vis, i, j, rows, cols));
                 }
             }
         }
-        return max_area;
+
+        return res;
+
     }
 
-    int bfs(vector<vector<int>>& grid, vector<vector<bool>>& vis, int row, int col, int rows, int cols) {
+    int bfs(graph& grid, visited& vis, int row, int col, int& rows, int& cols) {
         queue<pair<int, int>> q;
+        int count = 1; // this will keep the count of the nodes that it is visiting and such
+
         q.push({row, col});
         vis[row][col] = true;
-        int area = 1; // Count the starting cell
 
-        while (!q.empty()) {
+        while(!q.empty()) {
             auto curr = q.front();
+
+            int curr_row = curr.first;
+            int curr_col = curr.second;
+
             q.pop();
 
-            int row = curr.first;
-            int col = curr.second;
+            for(int i = 0; i < 4; i++) {
+                int adjx = curr_row + dx[i];
+                int adjy = curr_col + dy[i];
 
-            for (int i = 0; i < 4; i++) {
-                int adjx = row + dRow[i];
-                int adjy = col + dCol[i];
-
-                // Fix bounds check: adjx < rows, adjy < cols
-                if (adjx >= 0 && adjy >= 0 && adjx < rows && adjy < cols) {
-                    if (!vis[adjx][adjy] && grid[adjx][adjy] == 1) {
-                        vis[adjx][adjy] = true;
-                        q.push({adjx, adjy});
-                        area++; // Increment for each new land cell
-                    }
+                if(
+                    adjx >= 0 &&
+                    adjy >= 0 &&
+                    adjx < rows &&
+                    adjy < cols && 
+                    !vis[adjx][adjy] && 
+                    grid[adjx][adjy] == 1
+                ) {
+                    q.push({adjx, adjy});
+                    vis[adjx][adjy] = true;
+                    count++ ;
                 }
             }
         }
 
-        return area;
+        return count;
     }
 };
