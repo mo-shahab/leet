@@ -1,52 +1,55 @@
+// use kahns algorithm in here
 class Solution {
 public:
     typedef vector<vector<int>> graph;
 
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        graph g = build_graph(prerequisites, numCourses);
+    graph buildGraph(int n, vector<vector<int>>& pre) {
+        graph g(n);
 
-        vector<bool> done(numCourses, false), todo(numCourses, false);
-
-        for(int i = 0; i < numCourses; i++){
-            if(!done[i] && !dfs(g, done, todo, i)){
-                return false;
-            }
+        for(auto& p : pre) {
+            // Edge goes from Prereq (p[1]) to Course (p[0])
+            g[p[1]].push_back(p[0]); 
         }
-
-        return true;
-    }
-
-    graph build_graph(graph& pre, int num){
-        graph g(num); 
-
-        for(auto& p: pre){
-            g[p[0]].push_back(p[1]);
-        }
-
         return g;
     }
 
-    bool dfs(graph& g, vector<bool>& done, vector<bool>& todo, int node){
-        if(todo[node]){
-            return false;
+    vector<int> computeIndegrees(int n, vector<vector<int>>& pre) {
+        vector<int> degrees(n, 0);
+        // consider [i, j];
+        // the edge is coming from j-> i , so its inning the i,
+        // so p[0] is the proper thing in here 
+        for(auto& p : pre) {
+            degrees[p[0]]++; // Course p[0] depends on p[1]
         }
+        return degrees;
+    }
 
-        if(done[node]){
-            return true;
-        }
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
 
-        todo[node] = done[node] = true;
+        graph g = buildGraph(numCourses, prerequisites);
 
-        for(auto& v: g[node]){
-            if(!dfs(g, done, todo, v)){
-                return false;
+        vector<int> degrees = computeIndegrees(numCourses, prerequisites);
+        int count = 0;
+
+        queue<int> q;
+        // take in all the nodes that have indegree as 0
+        for (int i = 0; i < numCourses; i++) {
+            if (degrees[i] == 0) {
+                q.push(i);
             }
         }
 
-        todo[node] = false;
+        while(!q.empty()) {
+            auto curr = q.front();
+            count++;
+            q.pop();
 
-        return true;
+            for(auto next: g[curr]) {
+                degrees[next]--;
+
+                if(degrees[next] == 0) q.push(next);
+            }
+        }
+        return count == numCourses;
     }
-
-
 };
