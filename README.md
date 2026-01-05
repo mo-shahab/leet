@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0134-gas-station](https://github.com/mo-shahab/leet/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/mo-shahab/leet/tree/master/0152-maximum-product-subarray) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/mo-shahab/leet/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/mo-shahab/leet/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/mo-shahab/leet/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/mo-shahab/leet/tree/master/0213-house-robber-ii) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0125-valid-palindrome](https://github.com/mo-shahab/leet/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/mo-shahab/leet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/mo-shahab/leet/tree/master/0143-reorder-list) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/mo-shahab/leet/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/mo-shahab/leet/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/mo-shahab/leet/tree/master/0300-longest-increasing-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
