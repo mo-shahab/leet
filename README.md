@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0076-minimum-window-substring](https://github.com/mo-shahab/leet/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/mo-shahab/leet/tree/master/0091-decode-ways) |
+| [0125-valid-palindrome](https://github.com/mo-shahab/leet/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/mo-shahab/leet/tree/master/0139-word-break) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mo-shahab/leet/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/mo-shahab/leet/tree/master/0042-trapping-rain-water) |
+| [0125-valid-palindrome](https://github.com/mo-shahab/leet/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/mo-shahab/leet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/mo-shahab/leet/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
