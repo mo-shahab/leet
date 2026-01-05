@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
+| [1284-four-divisors](https://github.com/mo-shahab/leet/tree/master/1284-four-divisors) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## String
 |  |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0002-add-two-numbers](https://github.com/mo-shahab/leet/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0070-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
+| [1284-four-divisors](https://github.com/mo-shahab/leet/tree/master/1284-four-divisors) |
 ## Memoization
 |  |
 | ------- |
