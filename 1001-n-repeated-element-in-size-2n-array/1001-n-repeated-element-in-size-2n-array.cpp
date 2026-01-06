@@ -1,16 +1,10 @@
 class Solution {
 public:
     int repeatedNTimes(vector<int>& nums) {
-        unordered_map<int, int> hashmap;
-
-        for(int i = 0; i < nums.size(); i++) {
-            hashmap[nums[i]]++;
+        for(int i = 0; i < nums.size() - 2; i++) {
+            if(nums[i] == nums[i + 1] || nums[i] == nums[i+2]) return nums[i];
         }
 
-        for(auto elem: hashmap) {
-           if(elem.second > 1)  return elem.first;
-        }
-
-        return 0;
+        return nums.back();
     }
 };
