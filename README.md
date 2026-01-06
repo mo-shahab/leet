@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
 | [1284-four-divisors](https://github.com/mo-shahab/leet/tree/master/1284-four-divisors) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2089-maximum-matrix-sum](https://github.com/mo-shahab/leet/tree/master/2089-maximum-matrix-sum) |
 ## String
 |  |
 | ------- |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0417-pacific-atlantic-water-flow](https://github.com/mo-shahab/leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/mo-shahab/leet/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
+| [2089-maximum-matrix-sum](https://github.com/mo-shahab/leet/tree/master/2089-maximum-matrix-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -431,6 +433,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2089-maximum-matrix-sum](https://github.com/mo-shahab/leet/tree/master/2089-maximum-matrix-sum) |
 ## Counting
 |  |
 | ------- |
