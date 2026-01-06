@@ -1,19 +1,25 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        vector<int> last_seen(128, -1);
-        int start = 0;
-        int result = 0;
+        int i = 0;
+        int j = 0;    
+        int maxLen = 0;
+         
 
-        for(int end = 0; end < s.size(); end++){
-            if(last_seen[s[end]] >= start){
-                start = last_seen[s[end]] + 1;
+        vector<int> freq(128, -1);
+
+        while(j < s.size()) {
+            if(freq[s[j]] < i) {
+                freq[s[j]] = j;
+                j++;
+            } else {
+                i = freq[s[j]] + 1;
+                freq[s[j]] = j;
+                j++;
             }
-
-            last_seen[s[end]] = end;
-            result = max(result, end - start + 1);
+            maxLen = max(maxLen, j - i);
         }
 
-        return result;
+        return maxLen;
     }
 };
