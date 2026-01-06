@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1001-n-repeated-element-in-size-2n-array](https://github.com/mo-shahab/leet/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mo-shahab/leet/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1001-n-repeated-element-in-size-2n-array](https://github.com/mo-shahab/leet/tree/master/1001-n-repeated-element-in-size-2n-array) |
 ## Breadth-First Search
 |  |
 | ------- |
