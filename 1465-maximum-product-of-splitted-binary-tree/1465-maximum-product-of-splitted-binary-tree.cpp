@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    const long long mod = 1e9 + 7;
 
     int dfsTotalSum(TreeNode* root) {
         if(!root) return 0;
@@ -39,7 +40,7 @@ public:
 
         dfsSubtreeSum(root, maxProd, totalSum);
 
-        res =  int(maxProd % (int(pow(10, 9)) + 7));
+        res =  int(maxProd % mod);
 
         return res;
     }
