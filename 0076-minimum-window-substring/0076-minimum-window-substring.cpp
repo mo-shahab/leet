@@ -1,52 +1,57 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        
-        vector<int> have_vec(128, 0);
-        vector<int> need_vec(128, 0);
-
-        int have = 0, need = 0;
-
-        for(auto ch: t){
-            if(need_vec[ch] == 0){
-               need++; 
-            }
-            need_vec[ch]++;
+        // Frequency map to track what we need from string 't'
+        vector<int> charCounts(128, 0);
+        for (char c : t) {
+            charCounts[c]++;
         }
 
-        int i = 0, j = 0;
-
-        pair<int, int> res; // stores the indices of the result substring;
-
-        int min_len = INT_MAX;
-        int min_start = 0;
-
-        while (j < s.size()) {
-            char ch = s[j];
-            have_vec[ch]++;
+        int left = 0;
+        int right = 0;
+        int charactersNeeded = t.size();
         
-            if (need_vec[ch] > 0 && have_vec[ch] == need_vec[ch]) {
-                have++; 
+        int minWindowLength = INT_MAX;
+        int startIndex = 0;
+
+        // Phase 1: Expand the window
+        while (right < s.size()) {
+            char currentRight = s[right];
+
+            // If we found a character that's actually in 't', decrement our requirement
+            if (charCounts[currentRight] > 0) {
+                charactersNeeded--;
             }
-        
-            while (have == need) {
-                if (j - i + 1 < min_len) {
-                    min_len = j - i + 1;
-                    min_start = i;
+            
+            // Note: We decrement charCounts even for characters NOT in 't'
+            // This creates negative values for extra/unnecessary characters
+            charCounts[currentRight]--;
+            right++;
+
+            // Phase 2: Shrink the window once it's "valid"
+            while (charactersNeeded == 0) {
+                int currentWindowSize = right - left;
+
+                // Update our record for the smallest window
+                if (currentWindowSize < minWindowLength) {
+                    minWindowLength = currentWindowSize;
+                    startIndex = left;
                 }
-                char left_char = s[i];
-                have_vec[left_char]--;
-        
-                if (need_vec[left_char] > 0 && have_vec[left_char] < need_vec[left_char]) {
-                    have--;
+
+                // Move the left pointer to see if we can still stay valid with less
+                char currentLeft = s[left];
+                charCounts[currentLeft]++;
+
+                // If the count goes above 0, it means we just lost a required character
+                if (charCounts[currentLeft] > 0) {
+                    charactersNeeded++;
                 }
-                i++;
+
+                left++;
             }
-    
-            j++; 
         }
 
-
-        return min_len == INT_MAX ? "" : s.substr(min_start, min_len);
+        // Final check: did we ever find a valid window?
+        return (minWindowLength == INT_MAX) ? "" : s.substr(startIndex, minWindowLength);
     }
 };
