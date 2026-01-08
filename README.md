@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/mo-shahab/leet/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mo-shahab/leet/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/mo-shahab/leet/tree/master/1046-max-consecutive-ones-iii) |
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
 | [1284-four-divisors](https://github.com/mo-shahab/leet/tree/master/1284-four-divisors) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/mo-shahab/leet/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/mo-shahab/leet/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
+| [1046-max-consecutive-ones-iii](https://github.com/mo-shahab/leet/tree/master/1046-max-consecutive-ones-iii) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/mo-shahab/leet/tree/master/0300-longest-increasing-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/mo-shahab/leet/tree/master/0907-koko-eating-bananas) |
+| [1046-max-consecutive-ones-iii](https://github.com/mo-shahab/leet/tree/master/1046-max-consecutive-ones-iii) |
 ## Tree
 |  |
 | ------- |
@@ -451,4 +454,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/mo-shahab/leet/tree/master/0572-subtree-of-another-tree) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/mo-shahab/leet/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
