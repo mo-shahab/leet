@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1046-max-consecutive-ones-iii](https://github.com/mo-shahab/leet/tree/master/1046-max-consecutive-ones-iii) |
 | [1127-last-stone-weight](https://github.com/mo-shahab/leet/tree/master/1127-last-stone-weight) |
 | [1284-four-divisors](https://github.com/mo-shahab/leet/tree/master/1284-four-divisors) |
+| [1569-max-dot-product-of-two-subsequences](https://github.com/mo-shahab/leet/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2089-maximum-matrix-sum](https://github.com/mo-shahab/leet/tree/master/2089-maximum-matrix-sum) |
 ## String
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0747-min-cost-climbing-stairs) |
+| [1569-max-dot-product-of-two-subsequences](https://github.com/mo-shahab/leet/tree/master/1569-max-dot-product-of-two-subsequences) |
 ## Hash Table
 |  |
 | ------- |
