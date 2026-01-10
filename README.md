@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0567-permutation-in-string](https://github.com/mo-shahab/leet/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mo-shahab/leet/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 ## Backtracking
 |  |
 | ------- |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0435-non-overlapping-intervals](https://github.com/mo-shahab/leet/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/mo-shahab/leet/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/mo-shahab/leet/tree/master/0678-valid-parenthesis-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mo-shahab/leet/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0747-min-cost-climbing-stairs](https://github.com/mo-shahab/leet/tree/master/0747-min-cost-climbing-stairs) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/mo-shahab/leet/tree/master/1569-max-dot-product-of-two-subsequences) |
 ## Hash Table
