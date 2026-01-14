@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0055-jump-game](https://github.com/mo-shahab/leet/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/mo-shahab/leet/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mo-shahab/leet/tree/master/0057-insert-interval) |
+| [0078-subsets](https://github.com/mo-shahab/leet/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mo-shahab/leet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0022-generate-parentheses](https://github.com/mo-shahab/leet/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/mo-shahab/leet/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/mo-shahab/leet/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/mo-shahab/leet/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/mo-shahab/leet/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/mo-shahab/leet/tree/master/0131-palindrome-partitioning) |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/mo-shahab/leet/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/mo-shahab/leet/tree/master/0090-subsets-ii) |
 | [0187-repeated-dna-sequences](https://github.com/mo-shahab/leet/tree/master/0187-repeated-dna-sequences) |
 | [0287-find-the-duplicate-number](https://github.com/mo-shahab/leet/tree/master/0287-find-the-duplicate-number) |
