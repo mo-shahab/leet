@@ -1,41 +1,41 @@
 class Solution {
 public:
-    vector<vector<string>> partition(string s) 
-    {
-        vector<vector<string>> result;
-        vector<string> subset;
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>> subs; // result
+        vector<string> sub; // a single subset
 
-        dfs(s, result, subset, 0);
-        return result;
+        backtrack(s, subs, sub, 0);
+
+        return subs;
     }
 
-    void dfs(string& s, vector<vector<string>>& result, vector<string>& subset, int start)
+    void backtrack(string& s, vector<vector<string>>& subs, vector<string>& sub,  int i)
     {
-        if(start == s.length()){
-            result.push_back(subset);
-        }
-
-        for(int i = start + 1; i <= s.length(); i++)
+        if(i == s.size())
         {
-            if(isPalindrome(s, start , i - 1))     
+            subs.push_back(sub);
+            return;
+        }
+        for(int j = i; j < s.size(); j++)
+        {
+            if(isPalindrome(s, i, j))
             {
-                subset.push_back(s.substr(start, i - start));
-                dfs(s, result, subset, i);
-                subset.pop_back();
+                sub.push_back(s.substr(i, j-i+1));
+                backtrack(s, subs, sub, j + 1);
+                sub.pop_back();
             }
         }
     }
 
-    bool isPalindrome(const string& s, int left, int right){
+    bool isPalindrome(string& s, int left, int right)
+    {
         while(left < right)
         {
-            if(s[left++] != s[right--])
-            {
-                return false;
-            }
+            if(s[left++] != s[right--]) return false;
         }
 
         return true;
     }
+
 
 };
