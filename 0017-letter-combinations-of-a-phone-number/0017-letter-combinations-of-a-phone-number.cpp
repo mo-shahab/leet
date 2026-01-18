@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    unordered_map<char, string> keyboard = {
+    unordered_map<char, string> hashmap = {
         {'2', "abc"},
         {'3', "def"},
         {'4', "ghi"},
@@ -12,29 +12,26 @@ public:
         {'9', "wxyz"},
     };
 
-    vector<string> letterCombinations(string digits) 
-    {
-        vector<string> result;
-        string substr;
+    vector<string> letterCombinations(string digits) {
+        vector<string> subs;        
 
-        if(digits.length() == 0) return result;
-        dfs(digits, result, substr, 0);
-        return result;
+        string curr = "";
+
+        backtrack(subs, curr, digits, 0);
+        return subs;
     }
 
-    void dfs(string& digits, vector<string>& result, string& substr, int start)
+    void backtrack(vector<string>& subs, string current, string digits, int i )
     {
-        if(start == digits.length())
-        {
-            result.push_back(substr);
+        if(current.length() == digits.length()) {
+            subs.push_back(current);
             return;
         }
 
-        for(char c: keyboard[digits[start]])
-        {
-            substr.push_back(c);
-            dfs(digits, result, substr, start + 1);
-            substr.pop_back();
+        for(char c: hashmap[digits[i]]) {
+            current.push_back(c);
+            backtrack(subs, current, digits, i+1);
+            current.pop_back();
         }
     }
 };
