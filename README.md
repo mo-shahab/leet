@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [1569-max-dot-product-of-two-subsequences](https://github.com/mo-shahab/leet/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/mo-shahab/leet/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2089-maximum-matrix-sum](https://github.com/mo-shahab/leet/tree/master/2089-maximum-matrix-sum) |
+| [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mo-shahab/leet/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## String
 |  |
 | ------- |
@@ -449,6 +450,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0621-task-scheduler](https://github.com/mo-shahab/leet/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/mo-shahab/leet/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/mo-shahab/leet/tree/master/1014-k-closest-points-to-origin) |
+| [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mo-shahab/leet/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Quickselect
 |  |
 | ------- |
@@ -484,4 +486,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/mo-shahab/leet/tree/master/0713-subarray-product-less-than-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/mo-shahab/leet/tree/master/1046-max-consecutive-ones-iii) |
+## Enumeration
+|  |
+| ------- |
+| [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mo-shahab/leet/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 <!---LeetCode Topics End-->
